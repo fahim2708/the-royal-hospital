@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Blood Bank",
+        "sDescription": "Blood donation is not hazardous and it proves to be a healthy habit that helps blood renewal. The volume of whole blood donation is 450 ml, almost 7.5% of the.",
+        "img": "https://www.thehindu.com/thread/kln33e/article28707489.ece/ALTERNATES/LANDSCAPE_615/blood-donation"
+    },
+    {
+        "name": "Chemotherapy",
+        "sDescription": "Chemotherapy is a cancer treatment where medicine is used to kill cancer cells.There are many different types of chemotherapy medicine, but they all work in a similar way.",
+        "img": "https://images.everydayhealth.com/images/cancer/what-is-chemotherapy-722x406.jpg?sfvrsn=912570a9_0"
+    },
+    {
+        "name": "Diabetes Center",
+        "sDescription": "Diabetes is a chronic (long-lasting) health condition that affects how your body turns food into energy. Most of the food you eat is broken down into sugar.",
+        "img": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/diabetes-overview-1579871892.jpg"
+    },
+    {
+        "name": "Physiotherapy",
+        "sDescription": "Physiotherapy is treatment to restore, maintain, and make the most of a patient's mobility, function, and well-being. Physiotherapy helps through .",
+        "img": "http://surecellbd.com/wp-content/uploads/2017/02/surecell_service_11_physiotherapy.jpg"
+    },
+    {
+        "name": "Stroke Center",
+        "sDescription": "A stroke is a serious life-threatening medical condition that happens when the blood supply to part of the brain is cut off. Strokes are a medical emergency..",
+        "img": "https://accesstorehab.co.uk/wp-content/uploads/Stroke-1024x463.jpg"
+    },
+    {
+        "name": "Vascular Center",
+        "sDescription": "Vascular comes from a Latin word for hollow container. If your entire network of blood vessels were stretched end-to-end, they could circle the Earth multiple times..",
+        "img": "https://arteryandvein.com/wp-content/uploads/2015/05/What-Does-a-Vascular-Surgeon-Treat-Featured.png"
+    },
+    {
+        "name": "Vascular Center",
+        "sDescription": "Vascular comes from a Latin word for hollow container. If your entire network of blood vessels were stretched end-to-end, they could circle the Earth multiple times.",
+        "img": "https://arteryandvein.com/wp-content/uploads/2015/05/What-Does-a-Vascular-Surgeon-Treat-Featured.png"
+    },
+    {
+        "name": "Vascular Center",
+        "sDescription": "Vascular comes from a Latin word for hollow container. If your entire network of blood vessels were stretched end-to-end, they could circle the Earth multiple times.",
+        "img": "https://arteryandvein.com/wp-content/uploads/2015/05/What-Does-a-Vascular-Surgeon-Treat-Featured.png"
+    }
+]

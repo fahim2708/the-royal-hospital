@@ -1,0 +1,15 @@
+.card-title{
+    color: rgb(26, 108, 175);
+}
+.services-img{
+    height: 180px;
+}
+.enroll-btn{
+    color: snow;
+    background-color: rgb(20, 139, 133);
+}
+.enroll-btn:hover{
+    background-color: white;
+    color: rgb(20, 139, 133);
+    border-color: rgba(4, 73, 33, 0.404);
+}

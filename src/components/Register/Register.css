@@ -1,0 +1,7 @@
+.old-user{
+    text-decoration: none;
+    color: rgb(10, 95, 121);
+}
+.old-user:hover{
+    color: rgb(32, 216, 233);
+}

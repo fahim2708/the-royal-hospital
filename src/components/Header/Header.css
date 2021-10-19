@@ -1,0 +1,9 @@
+.menu{
+    text-decoration: none;
+    color: grey;
+    padding: 10px;
+    font-size: x-large;
+}
+.menu:hover{
+    color: red;
+}
