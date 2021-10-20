@@ -4,10 +4,10 @@ import { Link } from 'react-router-dom';
 import './Register.css';
 const Register = () => {
     return (
-        <div>
-            <div className="mx-auto w-50">
-                <h1 className="text-center">
-                    Create an accoount
+        <div className="register">
+            <div className="mx-auto w-25">
+                <h1 className="text-center text-center fst-italic mb-4">
+                    Create an account
                 </h1>
                 <Form onSubmit="">
                     <Form.Group className="mb-3" controlId="formBasicEmail">

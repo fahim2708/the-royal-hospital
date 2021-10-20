@@ -1,44 +1,41 @@
 import React from 'react';
 import { Container, Nav, Navbar, Button } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
-import useFirebase from '../../hooks/useFirebase';
+import useAuth from '../../hooks/useAuth';
 import './Header.css';
 
 const Header = () => {
-    const { user, logOut } = useFirebase();
+    const { user, logOut } = useAuth();
     return (
         <div>
-            <Navbar bg="info" variant="dark">
+            <Navbar className="header" variant="dark">
                 <Container>
-                    <Navbar.Brand href="/home" className="">
-                        <h3><img src="https://img.icons8.com/office/40/000000/hospital.png" alt="" height="40px" />  The Royal Hospital</h3>
+                    <Navbar.Brand href="/home">
+                        <h3 className="title fw-bold"><img src="https://img.icons8.com/office/40/000000/hospital.png" alt="" height="40px" />  The Royal Hospital</h3>
                     </Navbar.Brand>
                     <Nav>
-                        <NavLink className="menu text-light" to="/home" activeClassName="selected" activeStyle={{
+                        <NavLink className="menu" to="/home" activeClassName="selected" activeStyle={{
                             fontWeight: "bold",
-                            color: "white"
+                            color: "#2980b9"
                         }}> Home
                         </NavLink>
-                        <NavLink className="menu text-light" to="/courses" activeClassName="selected" activeStyle={{
+                        <NavLink className="menu" to="/doctors" activeClassName="selected" activeStyle={{
                             fontWeight: "bold",
-                            color: "white"
-                        }}> Services
-                        </NavLink>
-                        <NavLink className="menu text-light" to="/register" activeClassName="selected" activeStyle={{
-                            fontWeight: "bold",
-                            color: "white"
-                        }}> Register
+                            color: "#2980b9"
+                        }}> Doctors
                         </NavLink>
                         {
-                            user.email ? <NavLink className="menu text-light" to="/login" activeClassName="selected" onClick={logOut} activeStyle={{
+                            user.email ? <NavLink className="menu" to="/login" activeClassName="selected" onClick={logOut} activeStyle={{
                                 fontWeight: "bold",
-                                color: "white"
-                            }}><span className="small">Hello, {user.displayName}</span> Logout
+                                color: "#2980b9;"
+                            }}>
+                                <img src={user.photoURL} alt="" height="25px" className="pro-img" /><span className="pro-name">   {user.displayName}</span> Logout
                             </NavLink>
                                 :
-                                <NavLink className="menu text-light" to="/login" activeClassName="selected" activeStyle={{
+
+                                <NavLink className="menu" to="/login" activeClassName="selected" activeStyle={{
                                     fontWeight: "bold",
-                                    color: "white"
+                                    color: "#2980b9"
                                 }}> Login
                                 </NavLink>
                         }

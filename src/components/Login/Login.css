@@ -5,3 +5,6 @@
 .new-user:hover{
     color: rgb(32, 216, 233);
 }
+.login{
+    min-height: 70vh;
+}

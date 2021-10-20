@@ -1,9 +1,24 @@
 .menu{
     text-decoration: none;
-    color: grey;
     padding: 10px;
     font-size: x-large;
+    color: #2980b9;
 }
 .menu:hover{
-    color: red;
+    color: tomato;
+}
+.pro-name{
+    font-size: x-small;
+    font-style: oblique;
+    color: rgb(24, 77, 121);
+}
+.pro-img{
+    border-radius: 50%;
+}
+.header{
+    background-color: #ecf0f1;
+}
+
+.title{
+    color: #474787;
 }

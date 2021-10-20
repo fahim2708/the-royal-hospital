@@ -1,1 +1,15 @@
+.book-num{
+    animation: blinker 0.8s linear infinite;
+}
+@keyframes blinker {
+    75% {
+      opacity: 0;
+    }
+  }
+  .appointment-button{
+    background-color: #227093;
+    color: whitesmoke;
+    font-style: italic;
+    font-weight: bolder;
 
+  }
