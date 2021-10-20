@@ -5,7 +5,7 @@
 
 
 ### Runs the app in the livesite link
-Open [https://assignment-10-fahim2708.netlify.app/](https://assignment-10-fahim2708.netlify.app/) to view it in the browser.
+Open [https://the-royal-hospital.web.app/](https://the-royal-hospital.web.app/) to view it in the browser.
 
 
 ### Project Description
