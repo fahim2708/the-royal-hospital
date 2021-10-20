@@ -5,14 +5,14 @@ import useAuth from '../../hooks/useAuth';
 import './Login.css';
 
 const Login = () => {
-    const { signInWithGoogle } = useAuth();
+    const { signInWithGoogle, processLogin } = useAuth();
     return (
         <div className="login">
             <div className="mx-auto w-25">
                 <h1 className="text-center fst-italic">
                     Login
                 </h1>
-                <Form onSubmit="">
+                <Form onSubmit={processLogin}>
                     <Form.Group className="mb-3" controlId="formBasicEmail">
                         <Form.Label>Email address</Form.Label>
                         <Form.Control type="email" placeholder="Enter email" />
@@ -37,7 +37,7 @@ const Login = () => {
                 <br />
                 <Link to="/register" className="new-user">New User?</Link>
             </div>
-        </div>
+        </div >
     );
 };
 

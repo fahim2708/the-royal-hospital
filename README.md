@@ -10,6 +10,7 @@ Open [https://the-royal-hospital.web.app/](https://the-royal-hospital.web.app/) 
 
 ### Project Description
  * Easy Google Login
+ * Email and Password based authentication
  * Find Doctors
  * Book an appointment
  * Doctors List

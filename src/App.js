@@ -10,6 +10,7 @@ import ServiceDetails from './components/ServiceDetails/ServiceDetails';
 import AuthProvider from './context/AuthProvider';
 import Footer from './components/Footer/Footer';
 import Doctors from './components/Doctors/Doctors';
+import Telemedicine from './components/Telemedicine/Telemedicine';
 
 function App() {
   return (
@@ -27,13 +28,16 @@ function App() {
             <PrivateRoute path="/doctors">
               <Doctors />
             </PrivateRoute>
+            <PrivateRoute path="/telemedicine">
+              <Telemedicine />
+            </PrivateRoute>
             <Route exact path="/login">
               <Login />
             </Route>
             <Route exact path="/register">
               <Register />
             </Route>
-            <PrivateRoute path="/service/:serviceName">
+            <PrivateRoute path="/service/:serviceId">
               <ServiceDetails />
             </PrivateRoute>
             <Route path="*">

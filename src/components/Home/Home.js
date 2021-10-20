@@ -17,8 +17,10 @@ const Home = () => {
             <div>
                 <div className="d-flex justify-content-around align-items-center mx-auto w-75">
                     <div>
-                        <h1 className="text-warning"><img src="https://img.icons8.com/external-icongeek26-flat-icongeek26/50/000000/external-call-advertising-icongeek26-flat-icongeek26.png" alt="" height="50px" /> <span className="book-num"> Hotline 16247 </span></h1>
-                        <Button variant="" className="appointment-button">Book an Appoinment</Button>{' '}
+                        <h1 className="text-warning"><img src="https://img.icons8.com/external-bearicons-blue-bearicons/64/000000/external-Call-miscellany-texts-and-badges-bearicons-blue-bearicons.png" alt="" height="50px" /> <span className="book-num"> Hotline 16247 </span></h1>
+                        <div className="text-center">
+                            <Button variant="" className="appointment-button">Book an Appoinment</Button>{' '}
+                        </div>
                     </div>
                     <div>
                         <img src={banner} alt="" height="600px" width="600px" />
@@ -35,6 +37,31 @@ const Home = () => {
                             service={service}></Services>)
                     }
                 </Row>
+            </div>
+            {/* info */}
+            <div className="info">
+                <div className="d-flex justify-content-around align-items-center py-3">
+                    <div>
+                        <img src="https://img.icons8.com/ultraviolet/80/000000/hospital-room.png" alt="" />
+                        <h3 className="fw-bolder fst-italic">110</h3>
+                        <h6>Single Cabins</h6>
+                    </div>
+                    <div>
+                        <img src="https://img.icons8.com/ultraviolet/80/000000/hospital-3.png" alt="" />
+                        <h3 className="fw-bolder fst-italic">700</h3>
+                        <h6>In Patients Bed</h6>
+                    </div>
+                    <div>
+                        <img src="https://img.icons8.com/ultraviolet/40/000000/date-man-man.png" alt="" />
+                        <h3 className="fw-bolder fst-italic">1900</h3>
+                        <h6>Staffs</h6>
+                    </div>
+                    <div>
+                        <img src="https://img.icons8.com/ultraviolet/80/000000/doctors-bag.png " alt="" />
+                        <h3 className="fw-bolder fst-italic">210</h3>
+                        <h6>Consultants</h6>
+                    </div>
+                </div>
             </div>
         </div>
     );

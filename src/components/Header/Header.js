@@ -24,6 +24,11 @@ const Header = () => {
                             color: "#2980b9"
                         }}> Doctors
                         </NavLink>
+                        <NavLink className="menu" to="/telemedicine" activeClassName="selected" activeStyle={{
+                            fontWeight: "bold",
+                            color: "#2980b9"
+                        }}> Telemedicine
+                        </NavLink>
                         {
                             user.email ? <NavLink className="menu" to="/login" activeClassName="selected" onClick={logOut} activeStyle={{
                                 fontWeight: "bold",
