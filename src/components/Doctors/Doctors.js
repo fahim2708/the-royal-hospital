@@ -13,7 +13,8 @@ const Doctors = () => {
     return (
         <div className="doctors">
             <h1 className="text-center text-info mt-3 fst-italic">Doctors </h1>
-            <Row md={4} className="g-4 mx-auto w-75">
+            <p className="text-center text-primary mt-3 fst-italic">Our doctors are specialized in their field and have more than 10 years of experiences.</p>
+            <Row lg={4} xs={1} className="g-4 mx-auto w-75">
                 {
                     doctors.map(doctor => <Consultant
                         key={doctor.name}

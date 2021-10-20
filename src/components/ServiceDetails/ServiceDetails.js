@@ -18,7 +18,7 @@ const ServiceDetails = () => {
     }, [singleService]);
     return (
         <div className="serviceDetails">
-            <h2 className="text-center text-info mb-3">Services of {oneService?.name}</h2>
+            <h2 className="text-center text-info mb-3">Details of {oneService?.name}</h2>
             <div className="mx-auto w-75">
                 <div className="text-center">
                     <img src={oneService?.img} alt="" width="50%" />
